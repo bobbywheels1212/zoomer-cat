@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="t d">
+  <title id="t">Sample: Zoomer on a warm car</title>
+  <desc id="d">Sample illustration, not a real sighting.</desc>
+  <rect width="800" height="600" fill="#d9ecf7"/>
+  <circle cx="140" cy="110" r="48" fill="#ffd15c"/>
+  <rect x="70" y="470" width="660" height="16" fill="#b9c3ad"/>
+  <rect x="120" y="360" width="520" height="110" rx="28" fill="#8aa4b8"/>
+  <path d="M190 360c30-70 90-90 150-90h150c70 0 120 40 150 90z" fill="#6e8ea6"/>
+  <rect x="250" y="300" width="90" height="52" rx="8" fill="#e7f4fb"/>
+  <rect x="420" y="300" width="90" height="52" rx="8" fill="#e7f4fb"/>
+  <circle cx="230" cy="470" r="36" fill="#2a1a12"/>
+  <circle cx="560" cy="470" r="36" fill="#2a1a12"/>
+  <circle cx="230" cy="470" r="16" fill="#d9dee3"/>
+  <circle cx="560" cy="470" r="16" fill="#d9dee3"/>
+  <text x="36" y="64" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#2a1a12">SAMPLE</text>
+  <ellipse cx="400" cy="300" rx="70" ry="28" fill="#f0903a"/>
+  <circle cx="350" cy="278" r="26" fill="#f0903a"/>
+  <circle cx="342" cy="276" r="3" fill="#2a1a12"/>
+  <circle cx="360" cy="274" r="3" fill="#2a1a12"/>
+  <path d="M455 292c30 8 36-20 18-30" fill="none" stroke="#e07a2a" stroke-width="10" stroke-linecap="round"/>
+</svg>

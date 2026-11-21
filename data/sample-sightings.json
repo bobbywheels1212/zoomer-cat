@@ -1,0 +1,41 @@
+[
+  {
+    "id": "sample-bakery",
+    "sample": true,
+    "finderName": "SAMPLE neighbor",
+    "lat": 37.7614,
+    "lng": -122.4194,
+    "story": "[SAMPLE] Zoomer was loafed on the bakery steps like he paid rent in whiskers. He accepted one chin scratch and a compliment about his tail.",
+    "seenAt": "2026-11-21T08:40",
+    "createdAt": "2026-11-21T08:55:00Z",
+    "photo": "/assets/samples/bakery.svg",
+    "photoAlt": "Sample illustration of Zoomer loafing on bakery steps",
+    "video": null
+  },
+  {
+    "id": "sample-sunny-car",
+    "sample": true,
+    "finderName": null,
+    "lat": 37.7578,
+    "lng": -122.4128,
+    "story": "[SAMPLE] Found the orange mayor asleep on a warm car roof, one paw dangling, completely unbothered.",
+    "seenAt": "2026-11-20T15:10",
+    "createdAt": "2026-11-20T15:20:00Z",
+    "photo": "/assets/samples/sunny-car.svg",
+    "photoAlt": "Sample illustration of Zoomer asleep on a car roof",
+    "video": "/assets/samples/sunny-car.mp4"
+  },
+  {
+    "id": "sample-fence",
+    "sample": true,
+    "finderName": "SAMPLE: Riley",
+    "lat": 37.7631,
+    "lng": -122.4142,
+    "story": "[SAMPLE] Evening patrol. Zoomer walked the fence like a tiny security guard, then sat down to supervise the alley.",
+    "seenAt": "2026-11-18T18:25",
+    "createdAt": "2026-11-18T18:40:00Z",
+    "photo": "/assets/samples/fence.svg",
+    "photoAlt": "Sample illustration of Zoomer sitting on a fence at dusk",
+    "video": null
+  }
+]
