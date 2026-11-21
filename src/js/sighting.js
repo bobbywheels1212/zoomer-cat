@@ -1,7 +1,7 @@
 'use strict';
 
 (function () {
-  const PIN_SVG = '<svg viewBox="0 0 44 52" width="44" height="52" aria-hidden="true" focusable="false"><path d="M22 3c8.6 0 15 6.7 15 15.2C37 30 22 49 22 49S7 30 7 18.2C7 9.7 13.4 3 22 3z" fill="#c65316" stroke="#2a1a12" stroke-width="2"/><circle cx="22" cy="18" r="6.5" fill="#fff9f2"/><circle cx="19.6" cy="17.2" r="1.1" fill="#2a1a12"/><circle cx="24.5" cy="17.2" r="1.1" fill="#2a1a12"/></svg>';
+  const PIN_SVG = '<svg viewBox="0 0 44 52" width="44" height="52" aria-hidden="true" focusable="false"><path d="M22 3c8.6 0 15 6.7 15 15.2C37 30 22 49 22 49S7 30 7 18.2C7 9.7 13.4 3 22 3z" fill="#d4a72c" stroke="#2b2f36" stroke-width="2"/><circle cx="22" cy="18" r="7" fill="#5f6b78"/><ellipse cx="19.4" cy="17.4" rx="1.5" ry="1.8" fill="#e8c547"/><ellipse cx="24.6" cy="17.4" rx="1.5" ry="1.8" fill="#e8c547"/><circle cx="19.5" cy="17.6" r="0.6" fill="#2b2f36"/><circle cx="24.7" cy="17.6" r="0.6" fill="#2b2f36"/></svg>';
 
   const form = document.getElementById('sighting-form');
   const thanks = document.getElementById('thank-you');

@@ -36,7 +36,7 @@ async function main() {
     type: 'png',
     width: 1000,
     margin: 4,
-    color: { dark: '#000000', light: '#ffffff' }
+    color: { dark: '#2b2f36', light: '#ffffff' }
   });
 
   let svg = await QRCode.toString(url, {
@@ -44,7 +44,7 @@ async function main() {
     errorCorrectionLevel: 'H',
     margin: 4,
     width: 1000,
-    color: { dark: '#000000', light: '#ffffff' }
+    color: { dark: '#2b2f36', light: '#ffffff' }
   });
   svg = svg.replace(/<\?xml[^?]*\?>\s*/, '');
   if (!/<svg\b/.test(svg)) throw new Error('QR library returned an empty SVG');

@@ -1,6 +1,6 @@
 # Zoomer
 
-A mobile-first static site for Zoomer, a wandering neighborhood cat. Neighbors report sightings with a pin, a photo, a video, or a story. Netlify Forms stores the submissions. A build step turns the verified ones into a public map.
+A mobile-first static site for Zoomer, a wandering slate-gray neighborhood cat with gold eyes. The colors follow his coat, his eyes, and the oak leaves he sits in. Neighbors report sightings with a pin, a photo, a video, or a story. Netlify Forms stores the submissions. A build step turns the verified ones into a public map.
 
 The planned production URL is [https://zoomer-the-cat.netlify.app](https://zoomer-the-cat.netlify.app). That address lives in one place: `siteUrl` in [`site.config.json`](site.config.json).
 
@@ -102,7 +102,7 @@ Photos and videos are downloaded during the build and saved under `/media/sighti
 npm run qr
 ```
 
-Commit `site.config.json`, `assets/qr/zoomer-qr.png`, and `assets/qr/zoomer-qr.svg`. The PNG is 1000×1000, black on white, error correction level H, with a 4-module quiet zone. The SVG `<desc>` stores the URL the image was generated for. The build fails if that description does not match `siteUrl`, so the printed code and the tag text cannot drift.
+Commit `site.config.json`, `assets/qr/zoomer-qr.png`, and `assets/qr/zoomer-qr.svg`. The PNG is 1000×1000, charcoal (`#2b2f36`) on white, error correction level H, with a 4-module quiet zone. The SVG `<desc>` stores the URL the image was generated for. The build fails if that description does not match `siteUrl`, so the printed code and the tag text cannot drift.
 
 The QR encodes the site root, not `/sighting.html`. The landing page has the report button.
 
@@ -170,7 +170,7 @@ The browser blocks a submission over 8 MiB (`maxUploadBytes`, 8388608) and warns
 18. Leaflet 1.9.4 is loaded from jsDelivr with Subresource Integrity. Tiles are the public OpenStreetMap server, with attribution. A busier map should move to a dedicated tile provider.
 19. Pins are inline SVG markers. When two sightings share coordinates to 5 decimal places, the map nudges the extra pins so both can be tapped. The stored coordinates are not changed.
 20. The gallery is newest first, using `seen-at`, then `created_at`.
-21. The QR image is black on white so it scans on a printed or engraved tag. It is 1000×1000 pixels, error correction H, quiet zone of 4 modules.
+21. The QR image is charcoal on white so it scans on a printed or engraved tag and matches the new ink color. It is 1000×1000 pixels, error correction H, quiet zone of 4 modules. The decode test checks that it still reads as the site URL.
 22. The suggested collar tag is 45 mm × 72 mm. The QR prints at 25.4 mm. The tag text is "Hi, I'm Zoomer! Scan to report where you saw me."
 23. The dev server on 127.0.0.1 mocks `POST /` so the real submit code can be tested. That server is not part of the deploy. It also sends the Content-Security-Policy from `netlify.toml`.
 24. `dist/` is generated and gitignored. `sightings.json` is generated at build time and is not committed.

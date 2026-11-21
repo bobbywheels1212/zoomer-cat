@@ -13,9 +13,11 @@
   <circle cx="230" cy="470" r="16" fill="#d9dee3"/>
   <circle cx="560" cy="470" r="16" fill="#d9dee3"/>
   <text x="36" y="64" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#2a1a12">SAMPLE</text>
-  <ellipse cx="400" cy="300" rx="70" ry="28" fill="#f0903a"/>
-  <circle cx="350" cy="278" r="26" fill="#f0903a"/>
-  <circle cx="342" cy="276" r="3" fill="#2a1a12"/>
-  <circle cx="360" cy="274" r="3" fill="#2a1a12"/>
-  <path d="M455 292c30 8 36-20 18-30" fill="none" stroke="#e07a2a" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="400" cy="300" rx="70" ry="28" fill="#6d7886"/>
+  <circle cx="350" cy="278" r="26" fill="#6d7886"/>
+  <circle cx="342" cy="276" r="3" fill="#e8c547"/>
+  <circle cx="360" cy="274" r="3" fill="#e8c547"/>
+  <circle cx="342" cy="276" r="1.2" fill="#2b2f36"/>
+  <circle cx="360" cy="274" r="1.2" fill="#2b2f36"/>
+  <path d="M455 292c30 8 36-20 18-30" fill="none" stroke="#4a5560" stroke-width="10" stroke-linecap="round"/>
 </svg>
