@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zoomer's adventures</title>
+  <meta name="description" content="A map and gallery of places neighbors have seen Zoomer.">
+  <link rel="canonical" href="__ZOOMER_CANONICAL__">
+  <meta property="og:title" content="Zoomer's adventures">
+  <meta property="og:description" content="A map and gallery of places neighbors have seen Zoomer.">
+  <meta property="og:url" content="__ZOOMER_CANONICAL__">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f6e6d0">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" integrity="sha384-sHL9NAb7lN7rfvG5lfHpm643Xkcjzp4jFvuavGOndn6pjVqS6ny56CAt3nsEVT4H" crossorigin="anonymous">
+  <script src="/js/config.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" integrity="sha384-cxOPjt7s7Iz04uaHJceBmS+qpjv2JkIHNVcuOrM+YHwZOmJGBXI00mdUXEq65HTH" crossorigin="anonymous" defer></script>
+  <script src="/js/adventures.js" defer></script>
+</head>
+<body>
+  <!-- @@include header -->
+  <main id="main">
+    <div class="wrap" id="adventures">
+      <div class="panel">
+        <h1>Zoomer's adventures</h1>
+        <p>Every verified sighting lands here, newest first. Tap a pin, or open a card on the map.</p>
+        <noscript>
+          <p class="noscript">Zoomer's map needs JavaScript. Turn it on to see the pins and the gallery.</p>
+        </noscript>
+      </div>
+
+      <p id="adventures-status" class="fine section" role="status">Looking for Zoomer's latest adventures…</p>
+      <p id="sample-banner" class="banner section" role="note" hidden>These are sample adventures for local preview, not real sightings.</p>
+      <p id="load-error" class="form-errors section" hidden>Zoomer's adventure list didn't load. Please refresh in a moment.</p>
+
+      <section id="empty-state" class="panel empty-state section" hidden>
+        <h2>No adventures yet, be the first to spot Zoomer!</h2>
+        <p>When someone sends a sighting, it shows up here after the site rebuilds.</p>
+        <a class="cta" href="/sighting.html">I saw Zoomer!</a>
+      </section>
+
+      <section id="map-section" class="section" hidden aria-labelledby="map-heading">
+        <h2 id="map-heading" class="visually-hidden">Map of sightings</h2>
+        <div id="adventures-map" class="map-frame" aria-label="Map of places Zoomer has been seen"></div>
+      </section>
+
+      <section id="gallery-section" class="section" hidden aria-labelledby="gallery-heading">
+        <h2 id="gallery-heading">Every sighting</h2>
+        <ul id="gallery" class="gallery"></ul>
+      </section>
+    </div>
+  </main>
+  <!-- @@include footer -->
+</body>
+</html>

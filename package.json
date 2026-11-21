@@ -1,0 +1,23 @@
+{
+  "name": "zoomer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static site for Zoomer, a wandering neighborhood cat.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "dev": "node scripts/dev-server.js",
+    "qr": "node scripts/generate-qr.js",
+    "start": "node scripts/dev-server.js",
+    "test": "node --test scripts/sightings.test.js scripts/build.test.js scripts/qr.test.js",
+    "verify": "node scripts/verify.mjs"
+  },
+  "devDependencies": {
+    "jsqr": "^1.4.0",
+    "pngjs": "^7.0.0",
+    "puppeteer-core": "^25.18.1",
+    "qrcode": "^1.5.4"
+  }
+}

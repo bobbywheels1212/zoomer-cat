@@ -1,0 +1,32 @@
+# Zoomer the cat. Netlify reads this when the Git repo is connected.
+# Build command and publish directory live here so the Netlify UI can keep
+# its defaults. Do not put NETLIFY_API_TOKEN in this file.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Leaflet writes marker positions with style attributes, so style-src needs
+# 'unsafe-inline'. Scripts stay on our origin plus the pinned Leaflet CDN.
+# frame-ancestors is set here because a CSP meta tag cannot set it.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(self), camera=(), microphone=()"
+    Content-Security-Policy = "default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' https://cdn.jsdelivr.net 'unsafe-inline'; img-src 'self' data: blob: https://tile.openstreetmap.org https://cdn.jsdelivr.net; media-src 'self' blob:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'"
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+[[headers]]
+  for = "/media/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"

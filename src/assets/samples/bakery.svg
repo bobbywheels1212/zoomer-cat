@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="t d">
+  <title id="t">Sample: Zoomer at the bakery</title>
+  <desc id="d">Sample illustration, not a real sighting.</desc>
+  <rect width="800" height="600" fill="#ffe7c2"/>
+  <rect x="0" y="430" width="800" height="170" fill="#e7c4a4"/>
+  <rect x="80" y="470" width="180" height="28" rx="6" fill="#f6d7b0"/>
+  <rect x="110" y="498" width="180" height="28" rx="6" fill="#f3c89a"/>
+  <rect x="150" y="526" width="180" height="28" rx="6" fill="#efd0a4"/>
+  <circle cx="620" cy="120" r="54" fill="#ffd15c"/>
+  <text x="36" y="70" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#2a1a12">SAMPLE</text>
+  <text x="36" y="112" font-family="Georgia, serif" font-size="28" fill="#5c4030">Bakery steps</text>
+  <ellipse cx="430" cy="470" rx="120" ry="18" fill="#e2b48a"/>
+  <ellipse cx="430" cy="430" rx="130" ry="52" fill="#f0903a"/>
+  <circle cx="330" cy="400" r="48" fill="#f0903a"/>
+  <path d="M296 372 312 326l28 44zM338 360l30-40 16 48z" fill="#f0903a"/>
+  <ellipse cx="322" cy="412" rx="22" ry="14" fill="#ffe1c4"/>
+  <circle cx="314" cy="394" r="4" fill="#2a1a12"/>
+  <circle cx="342" cy="392" r="4" fill="#2a1a12"/>
+  <path d="M300 430c18 14 46 12 64-4" fill="none" stroke="#21573a" stroke-width="6" stroke-linecap="round"/>
+  <rect x="328" y="432" width="14" height="14" rx="2" fill="#ffd15c" stroke="#2a1a12"/>
+</svg>
