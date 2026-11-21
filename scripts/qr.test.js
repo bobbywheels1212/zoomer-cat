@@ -25,7 +25,7 @@ test('the collar QR matches siteUrl, is 1000px, and keeps a quiet zone', () => {
 
   let dark = 0;
   for (let i = 0; i < png.data.length; i += 4) {
-    if (png.data[i] < 32) dark += 1;
+    if (png.data[i] < 80 && png.data[i + 1] < 80 && png.data[i + 2] < 90) dark += 1;
   }
   assert.ok(dark > 1000, 'QR png has no dark modules');
 

@@ -10,12 +10,14 @@
   <text x="36" y="70" font-family="Georgia, serif" font-size="42" font-weight="700" fill="#2a1a12">SAMPLE</text>
   <text x="36" y="112" font-family="Georgia, serif" font-size="28" fill="#5c4030">Bakery steps</text>
   <ellipse cx="430" cy="470" rx="120" ry="18" fill="#e2b48a"/>
-  <ellipse cx="430" cy="430" rx="130" ry="52" fill="#f0903a"/>
-  <circle cx="330" cy="400" r="48" fill="#f0903a"/>
-  <path d="M296 372 312 326l28 44zM338 360l30-40 16 48z" fill="#f0903a"/>
+  <ellipse cx="430" cy="430" rx="130" ry="52" fill="#6d7886"/>
+  <circle cx="330" cy="400" r="48" fill="#6d7886"/>
+  <path d="M296 372 312 326l28 44zM338 360l30-40 16 48z" fill="#6d7886"/>
   <ellipse cx="322" cy="412" rx="22" ry="14" fill="#ffe1c4"/>
-  <circle cx="314" cy="394" r="4" fill="#2a1a12"/>
-  <circle cx="342" cy="392" r="4" fill="#2a1a12"/>
-  <path d="M300 430c18 14 46 12 64-4" fill="none" stroke="#21573a" stroke-width="6" stroke-linecap="round"/>
-  <rect x="328" y="432" width="14" height="14" rx="2" fill="#ffd15c" stroke="#2a1a12"/>
+  <circle cx="314" cy="394" r="4" fill="#e8c547"/>
+  <circle cx="342" cy="392" r="4" fill="#e8c547"/>
+  <circle cx="314" cy="394" r="1.6" fill="#2b2f36"/>
+  <circle cx="342" cy="392" r="1.6" fill="#2b2f36"/>
+  <path d="M300 430c18 14 46 12 64-4" fill="none" stroke="#d4a72c" stroke-width="6" stroke-linecap="round"/>
+  <rect x="328" y="432" width="14" height="14" rx="2" fill="#e8c547" stroke="#2b2f36"/>
 </svg>
