@@ -2,10 +2,10 @@
   "siteUrl": "https://zoomer-the-cat.netlify.app",
   "siteName": "Zoomer",
   "map": {
-    "lat": 37.7599,
-    "lng": -122.4148,
-    "zoom": 15,
-    "label": "Mission District, San Francisco — placeholder neighborhood"
+    "lat": 38.8814,
+    "lng": -94.8191,
+    "zoom": 14,
+    "label": "Central Olathe, Kansas"
   },
   "maxUploadBytes": 8388608,
   "warnUploadBytes": 6291456

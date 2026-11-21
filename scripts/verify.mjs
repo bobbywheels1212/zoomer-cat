@@ -144,8 +144,8 @@ async function main() {
       lat: Number(document.querySelector('#latitude').value),
       lng: Number(document.querySelector('#longitude').value)
     }));
-    assert(pin.lat > 37.7 && pin.lat < 37.82, `map click latitude was ${pin.lat}`);
-    assert(pin.lng < -122.38 && pin.lng > -122.46, `map click longitude was ${pin.lng}`);
+    assert(pin.lat > 38.84 && pin.lat < 38.92, `map click latitude was ${pin.lat}`);
+    assert(pin.lng < -94.78 && pin.lng > -94.86, `map click longitude was ${pin.lng}`);
 
     await page.click('#submit-sighting');
     await page.waitForFunction(() => /photo, a video, or a short story/i.test(document.querySelector('#form-errors').textContent));

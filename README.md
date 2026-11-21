@@ -132,7 +132,7 @@ The high-resolution files are `assets/qr/zoomer-qr.png` and `assets/qr/zoomer-qr
 
 ## Map starting point
 
-The sighting map opens at the `map` coordinates in `site.config.json`. The placeholder is the Mission District in San Francisco (`37.7599`, `-122.4148`, zoom 15). Change `lat`, `lng`, and `zoom` to Zoomer's neighborhood. The `label` is a note for you; it is not shown on the site. Finders can pan anywhere or tap **Use my location**.
+The sighting map opens at the `map` coordinates in `site.config.json`: central Olathe, Kansas (`38.8814`, `-94.8191`, zoom 14). No street address is stored. The `label` is a note for you; it is not shown on the site. Finders can pan anywhere or tap **Use my location**.
 
 ## Form fields
 
@@ -152,7 +152,7 @@ The browser blocks a submission over 8 MiB (`maxUploadBytes`, 8388608) and warns
 
 1. The production URL is `https://zoomer-the-cat.netlify.app` until `siteUrl` changes. No custom domain is configured in this repo.
 2. The QR code encodes that site root. There is not a second URL for the form.
-3. The default map center is a placeholder in San Francisco's Mission District. The public pages do not name that city.
+3. The default map center is central Olathe, Kansas (`38.8814`, `-94.8191`, zoom 14). No street address is used. The public pages do not name the city.
 4. Owner name, email, phone, and neighborhood are the literal TODO strings on the home page. They are not contact links.
 5. The home-page bio is placeholder copy, marked "Placeholder bio".
 6. The site is English only.
@@ -176,7 +176,7 @@ The browser blocks a submission over 8 MiB (`maxUploadBytes`, 8388608) and warns
 24. `dist/` is generated and gitignored. `sightings.json` is generated at build time and is not committed.
 25. Node.js 20 or newer is required (`fetch`, and Netlify's `NODE_VERSION`).
 26. Fraunces and Nunito are self-hosted Latin variable fonts under the SIL Open Font License. See `src/fonts/OFL.txt`.
-27. Sample adventures are fictional notes around the placeholder map center. They are labeled `[SAMPLE]` and are not shown when a Netlify build has no verified submissions.
+27. Sample adventures are fictional notes clustered around central Olathe, with no street address. They are labeled `[SAMPLE]` and are not shown when a Netlify build has no verified submissions.
 
 ## Layout
 
